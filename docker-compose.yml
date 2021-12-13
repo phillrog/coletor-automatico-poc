@@ -1,0 +1,98 @@
+version: '3.4'
+
+
+services:
+  sql.data:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: dev_sql
+    environment:
+              - ASPNETCORE_ENVIRONMENT=Development
+              - SA_PASSWORD=yourStrong(!)Password
+              - ACCEPT_EULA=Y
+
+    ports:
+              - "1435:1433"
+    networks:
+              - local              
+    volumes:
+      - sql_data:/var/opt/mssql/data
+
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+              - 5672:5672
+              - 15672:15672
+    networks:
+              - local
+
+  eventstore.db:
+    image: eventstore/eventstore:20.10.2-buster-slim
+    environment:
+              - EVENTSTORE_CLUSTER_SIZE=1
+              - EVENTSTORE_RUN_PROJECTIONS=All
+              - EVENTSTORE_START_STANDARD_PROJECTIONS=true
+              - EVENTSTORE_EXT_TCP_PORT=1113
+              - EVENTSTORE_HTTP_PORT=2113
+              - EVENTSTORE_INSECURE=true
+              - EVENTSTORE_ENABLE_EXTERNAL_TCP=true
+              - EVENTSTORE_ENABLE_ATOM_PUB_OVER_HTTP=true
+    ports:
+              - "1113:1113"
+              - "2113:2113"
+    volumes:
+              - eventstore-volume-data:/var/lib/eventstore
+              - eventstore-volume-logs:/var/log/eventstore
+    networks:
+              - local
+
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.0
+    container_name: es01
+    environment:
+      - node.name=es01
+      - bootstrap.memory_lock=true
+      - cluster.name=docker-cluster
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms2g -Xmx2g
+      # - xpack.security.enabled=true
+    ulimits:
+      nproc: 65535
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data_elastic_1:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - local
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.16.0
+    container_name: kibana    
+    ulimits:
+      nproc: 65535
+      memlock:
+        soft: -1
+        hard: -1
+    environment:
+      # - SERVER_NAME=localhost
+      - ELASTICSEARCH_URL=http://es01:9200
+      - ELASTICSEARCH_HOSTS=["http://es01:9200"]
+      # - ELASTICSEARCH_USERNAME=elastic
+      # - ELASTICSEARCH_PASSWORD=BDvUnv7JZhwnFg8uuUNw
+    ports:
+              - "5601:5601"
+    networks:
+              - local
+
+networks:
+    local:
+        driver: bridge
+
+volumes:
+  sql_data:
+    driver: local
+  eventstore-volume-data:
+  eventstore-volume-logs:
+  data_elastic_1:

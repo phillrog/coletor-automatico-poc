@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7ZniHkYAOsRGnBF6Wc8D7jcCIkzQlBoPvCxWkKNvUf0=",
+  "Source": "ColetaAutomatica.API",
+  "BasePath": "_content/ColetaAutomatica.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

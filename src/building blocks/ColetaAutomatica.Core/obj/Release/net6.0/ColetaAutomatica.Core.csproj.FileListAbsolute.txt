@@ -1,0 +1,12 @@
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\bin\Release\net6.0\ColetaAutomatica.Core.deps.json
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\bin\Release\net6.0\ColetaAutomatica.Core.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\bin\Release\net6.0\ref\ColetaAutomatica.Core.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\bin\Release\net6.0\ColetaAutomatica.Core.pdb
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.csproj.AssemblyReference.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.AssemblyInfoInputs.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.AssemblyInfo.cs
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ref\ColetaAutomatica.Core.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.Core\obj\Release\net6.0\ColetaAutomatica.Core.pdb

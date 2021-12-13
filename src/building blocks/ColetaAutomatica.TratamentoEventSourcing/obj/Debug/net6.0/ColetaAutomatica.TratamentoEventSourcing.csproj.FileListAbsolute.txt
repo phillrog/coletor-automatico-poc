@@ -1,0 +1,12 @@
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\bin\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.deps.json
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\bin\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\bin\Debug\net6.0\ref\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\bin\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.pdb
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.csproj.AssemblyReference.cache
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.AssemblyInfoInputs.cache
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.AssemblyInfo.cs
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.csproj.CoreCompileInputs.cache
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ref\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\services\ColetaAutomatica.TratamentoEventSourcing\obj\Debug\net6.0\ColetaAutomatica.TratamentoEventSourcing.pdb

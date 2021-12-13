@@ -1,0 +1,15 @@
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.deps.json
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ref\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.pdb
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ColetaAutomatica.Core.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\bin\Release\net6.0\ColetaAutomatica.Core.pdb
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.csproj.AssemblyReference.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.AssemblyInfoInputs.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.AssemblyInfo.cs
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.csproj.CoreCompileInputs.cache
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.csproj.CopyComplete
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ref\ColetaAutomatica.TratamentoEventSourcing.dll
+C:\Projetos\ColetaAutomatica\src\building blocks\ColetaAutomatica.TratamentoEventSourcing\obj\Release\net6.0\ColetaAutomatica.TratamentoEventSourcing.pdb
